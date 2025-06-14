@@ -10,7 +10,7 @@ let level = -1;
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("dblclick" , function(){
+document.addEventListener("keypress" , function(){
 
     startMusic();
 
@@ -73,7 +73,7 @@ function checkAns(index){
     }
     else{
         playFailSound();
-        h2.innerHTML = `Game Over! <b><u>Your score was ${level}</u></b> <br> Double to play again.`;
+        h2.innerHTML = `Game Over! <b><u>Your score was ${level}</u></b> <br> Press any key to play again.`;
 
         document.querySelector("body").style.background = "red";
 
