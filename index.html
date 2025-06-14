@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simon Game</title>
+
+</head>
+<body>
+
+  <h1>Simon Game</h1>
+  <h2>Press any key to start the game</h2>
+
+  <div class="container">
+    <div class="btn redd" id="red" type = "button"></div>
+    <div class="btn greenn" id="green"></div>
+    <div class="btn yelloww" id="yellow"></div>
+    <div class="btn bluee" id="blue"></div>
+  </div>
+
+  <!-- game start sound -->
+  <audio id="bg-music" loop>
+  <source src="edm003-retro-edm-_-gamepixel-racer-358045.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- game over sound -->
+  <audio id="gameOver">
+  <source src="buzzer-or-wrong-answer-20582.mp3" type="audio/mpeg">
+  </audio>
+
+<script src="jscript.js"></script>
+</body>
+</html>
